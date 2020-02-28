@@ -15,6 +15,7 @@
 		E3E88A5C2409780B000E2BEF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A5B2409780B000E2BEF /* main.m */; };
 		E3E88A6824097D18000E2BEF /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6724097D18000E2BEF /* PokemonAPI.swift */; };
 		E3E88A6B24097E3C000E2BEF /* TACPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6A24097E3C000E2BEF /* TACPokemon.m */; };
+		E3E88A6E2409822B000E2BEF /* LSIErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6C2409822B000E2BEF /* LSIErrors.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		E3E88A6724097D18000E2BEF /* PokemonAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonAPI.swift; sourceTree = "<group>"; };
 		E3E88A6924097E3C000E2BEF /* TACPokemon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACPokemon.h; sourceTree = "<group>"; };
 		E3E88A6A24097E3C000E2BEF /* TACPokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACPokemon.m; sourceTree = "<group>"; };
+		E3E88A6C2409822B000E2BEF /* LSIErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIErrors.m; sourceTree = "<group>"; };
+		E3E88A6D2409822B000E2BEF /* LSIErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIErrors.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 		E3E88A6524097CD5000E2BEF /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				E3E88A6D2409822B000E2BEF /* LSIErrors.h */,
+				E3E88A6C2409822B000E2BEF /* LSIErrors.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 				E3E88A6824097D18000E2BEF /* PokemonAPI.swift in Sources */,
 				E3E88A4E24097808000E2BEF /* SceneDelegate.m in Sources */,
 				E3E88A6B24097E3C000E2BEF /* TACPokemon.m in Sources */,
+				E3E88A6E2409822B000E2BEF /* LSIErrors.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
