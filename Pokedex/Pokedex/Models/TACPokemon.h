@@ -15,9 +15,13 @@
 @interface TACPokemon : NSObject
 
 @property (nonatomic,copy,nonnull) NSString *name;
+
 @property (nonatomic,copy,nonnull) NSURL *detailsURL;
+
 @property (nonatomic, nonnull) NSMutableArray *abilities;
+
 @property (nonatomic) int pokemonId;
+
 @property (nonatomic, nonnull) UIImage *pokemonSprite;
 
 -(instancetype _Nonnull)initWithDictionary:(nonnull NSDictionary *)dictionary;

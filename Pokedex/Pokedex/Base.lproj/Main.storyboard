@@ -10,7 +10,7 @@
         <!--PokeDex-->
         <scene sceneID="c5j-yJ-wDk">
             <objects>
-                <tableViewController id="ATQ-1k-ydN" sceneMemberID="viewController">
+                <tableViewController id="ATQ-1k-ydN" customClass="TACPokemonTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="PbJ-B9-8hl">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -33,7 +33,7 @@
                                     </subviews>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="A7f-pB-x1L" kind="show" identifier="DetialViewSegue" id="8u6-mn-wgV"/>
+                                    <segue destination="A7f-pB-x1L" kind="show" identifier="ShowDetialViewSegue" id="8u6-mn-wgV"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -48,10 +48,10 @@
             </objects>
             <point key="canvasLocation" x="579.71014492753625" y="-21.428571428571427"/>
         </scene>
-        <!--View Controller-->
+        <!--Pokemon Detail View Controller-->
         <scene sceneID="KoB-HQ-Vcm">
             <objects>
-                <viewController id="A7f-pB-x1L" sceneMemberID="viewController">
+                <viewController id="A7f-pB-x1L" customClass="TACPokemonDetailViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dI0-MU-oSP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,6 +99,12 @@
                         <viewLayoutGuide key="safeArea" id="zWr-QO-WKW"/>
                     </view>
                     <navigationItem key="navigationItem" id="OHn-Ap-ESn"/>
+                    <connections>
+                        <outlet property="abilitiesLabel" destination="lsn-w4-hVi" id="aRg-ZK-Amg"/>
+                        <outlet property="idLabel" destination="ggI-Uz-x2q" id="nfQ-6l-gMJ"/>
+                        <outlet property="imageView" destination="xTw-Zz-gb0" id="bzI-qB-QZQ"/>
+                        <outlet property="nameLabel" destination="zD0-F4-bTS" id="5gj-NW-PIp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ImH-EP-BLQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

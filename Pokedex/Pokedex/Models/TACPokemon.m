@@ -28,7 +28,7 @@
         NSString *abilityName = ability[@"name"];
         [self.abilities addObject:abilityName];
     }
-    
+    NSLog(@"Abilities: %@", self.abilities);
     self.pokemonId = [dictionary[@"id"] intValue];
 
     NSDictionary *spritesDictionary = dictionary[@"sprites"];

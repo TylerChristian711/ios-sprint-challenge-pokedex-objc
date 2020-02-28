@@ -9,6 +9,7 @@
 #import "TACPokemonController.h"
 #import "Pokedex-Swift.h"
 
+
 @interface TACPokemonController ()
 
 @property (nonatomic) NSArray<TACPokemon *> *pokemons;
@@ -20,6 +21,7 @@
 -(void)fetchPokemonWithPokemonAPI:(void (^)(NSError *error))completion {
     [PokemonAPI.sharedController fetchAllPokemonWithCompletion:^(NSArray<TACPokemon *> *pokemons, NSError *error) {
         if (error) {
+    NSLog(@"something is wrong in controller");
             completion(error);
             return;
         } else {
@@ -34,6 +36,7 @@
 }
 
 -(NSArray <TACPokemon *> *)getPokemons {
+    NSLog(@"pokemon array: %@", self.pokemons);
     return self.pokemons;
 }
 

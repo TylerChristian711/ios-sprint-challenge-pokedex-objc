@@ -17,6 +17,8 @@
 		E3E88A6B24097E3C000E2BEF /* TACPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6A24097E3C000E2BEF /* TACPokemon.m */; };
 		E3E88A6E2409822B000E2BEF /* LSIErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6C2409822B000E2BEF /* LSIErrors.m */; };
 		E3E88A7124098A30000E2BEF /* TACPokemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A7024098A30000E2BEF /* TACPokemonController.m */; };
+		E3E88A742409941D000E2BEF /* TACPokemonDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A732409941D000E2BEF /* TACPokemonDetailViewController.m */; };
+		E3E88A772409972D000E2BEF /* TACPokemonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A762409972D000E2BEF /* TACPokemonTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,10 @@
 		E3E88A6D2409822B000E2BEF /* LSIErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIErrors.h; sourceTree = "<group>"; };
 		E3E88A6F24098A30000E2BEF /* TACPokemonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACPokemonController.h; sourceTree = "<group>"; };
 		E3E88A7024098A30000E2BEF /* TACPokemonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACPokemonController.m; sourceTree = "<group>"; };
+		E3E88A722409941D000E2BEF /* TACPokemonDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACPokemonDetailViewController.h; sourceTree = "<group>"; };
+		E3E88A732409941D000E2BEF /* TACPokemonDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACPokemonDetailViewController.m; sourceTree = "<group>"; };
+		E3E88A752409972D000E2BEF /* TACPokemonTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACPokemonTableViewController.h; sourceTree = "<group>"; };
+		E3E88A762409972D000E2BEF /* TACPokemonTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACPokemonTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 		E3E88A6424097C83000E2BEF /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				E3E88A722409941D000E2BEF /* TACPokemonDetailViewController.h */,
+				E3E88A732409941D000E2BEF /* TACPokemonDetailViewController.m */,
+				E3E88A752409972D000E2BEF /* TACPokemonTableViewController.h */,
+				E3E88A762409972D000E2BEF /* TACPokemonTableViewController.m */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -199,6 +209,8 @@
 				E3E88A5C2409780B000E2BEF /* main.m in Sources */,
 				E3E88A6824097D18000E2BEF /* PokemonAPI.swift in Sources */,
 				E3E88A4E24097808000E2BEF /* SceneDelegate.m in Sources */,
+				E3E88A772409972D000E2BEF /* TACPokemonTableViewController.m in Sources */,
+				E3E88A742409941D000E2BEF /* TACPokemonDetailViewController.m in Sources */,
 				E3E88A7124098A30000E2BEF /* TACPokemonController.m in Sources */,
 				E3E88A6B24097E3C000E2BEF /* TACPokemon.m in Sources */,
 				E3E88A6E2409822B000E2BEF /* LSIErrors.m in Sources */,
