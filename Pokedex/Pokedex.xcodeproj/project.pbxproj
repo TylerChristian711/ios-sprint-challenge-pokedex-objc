@@ -16,6 +16,7 @@
 		E3E88A6824097D18000E2BEF /* PokemonAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6724097D18000E2BEF /* PokemonAPI.swift */; };
 		E3E88A6B24097E3C000E2BEF /* TACPokemon.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6A24097E3C000E2BEF /* TACPokemon.m */; };
 		E3E88A6E2409822B000E2BEF /* LSIErrors.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A6C2409822B000E2BEF /* LSIErrors.m */; };
+		E3E88A7124098A30000E2BEF /* TACPokemonController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E88A7024098A30000E2BEF /* TACPokemonController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,8 @@
 		E3E88A6A24097E3C000E2BEF /* TACPokemon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACPokemon.m; sourceTree = "<group>"; };
 		E3E88A6C2409822B000E2BEF /* LSIErrors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIErrors.m; sourceTree = "<group>"; };
 		E3E88A6D2409822B000E2BEF /* LSIErrors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIErrors.h; sourceTree = "<group>"; };
+		E3E88A6F24098A30000E2BEF /* TACPokemonController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TACPokemonController.h; sourceTree = "<group>"; };
+		E3E88A7024098A30000E2BEF /* TACPokemonController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TACPokemonController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +101,8 @@
 		E3E88A6324097C76000E2BEF /* ModelController */ = {
 			isa = PBXGroup;
 			children = (
+				E3E88A6F24098A30000E2BEF /* TACPokemonController.h */,
+				E3E88A7024098A30000E2BEF /* TACPokemonController.m */,
 			);
 			path = ModelController;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 				E3E88A5C2409780B000E2BEF /* main.m in Sources */,
 				E3E88A6824097D18000E2BEF /* PokemonAPI.swift in Sources */,
 				E3E88A4E24097808000E2BEF /* SceneDelegate.m in Sources */,
+				E3E88A7124098A30000E2BEF /* TACPokemonController.m in Sources */,
 				E3E88A6B24097E3C000E2BEF /* TACPokemon.m in Sources */,
 				E3E88A6E2409822B000E2BEF /* LSIErrors.m in Sources */,
 			);
